@@ -1,0 +1,11 @@
+#Ficheiros ocultos
+.classpath
+.project
+
+#Diretórios Ocultos
+.settings/
+
+#Outros
+/target
+
+
