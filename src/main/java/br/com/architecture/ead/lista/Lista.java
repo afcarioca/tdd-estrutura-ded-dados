@@ -12,5 +12,11 @@ public interface Lista<T> {
 	public int obtemTamanho();
 	
 	public Object obtemElemento(T t);
+	
+	public Object obtemElementoNaPosicao(int posicao);
+
+	public boolean adicionaNaPosicao(T t, int posicao);
+
+	public boolean removeElementoDaPosicao(int posicao);
 
 }

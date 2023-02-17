@@ -45,8 +45,9 @@ public class Vector<T> implements Lista<T>{
 
     @Override
     public boolean adicionaNoFim(Object t) {
-        // TODO Auto-generated method stub
-        return false;
+        this.redimensiona();
+        this.lista[this.tamanho++] = t;
+        return true;
     }
 
     @Override
@@ -65,9 +66,68 @@ public class Vector<T> implements Lista<T>{
     }
 
     @Override
-    public Object obtemElemento(Object t) {
-        // TODO Auto-generated method stub
+    public Object obtemElemento(T t) {
+        
+        for(int i = 0; i < this.tamanho; i++){
+            if(this.lista[i] == t){
+                return i;
+            }
+        }
+
         return null;
+    }
+
+
+    @Override
+    public Object obtemElementoNaPosicao(int posicao) {
+        
+        if (this.tamanho <= posicao || posicao < 0)
+            throw new IllegalAccessError("Posição Inexistente");
+
+        return this.lista[posicao];
+    }
+
+
+    @Override
+    public boolean adicionaNaPosicao(T t, int posicao) {
+        if ((this.tamanho <= posicao && posicao != 0) || posicao < 0)
+			throw new IllegalAccessError("Posição Inexistente");
+
+		if (posicao == 0) {
+			this.adicionaNoInicio(t);
+			return true;
+        }
+
+        this.redimensiona();
+
+        for(int i = this.tamanho -1 ; i >= posicao; i--){
+            this.lista[i + 1] = this.lista[i];
+        }
+
+        this.lista[posicao] = t;
+        this.tamanho++;
+        return true;
+    }
+
+
+    @Override
+    public boolean removeElementoDaPosicao(int posicao) {
+        if (this.tamanho <= posicao || posicao < 0)
+			throw new IllegalAccessError("Posicão Inexistente");
+        
+
+        if(this.tamanho -1 == posicao || this.tamanho == 1){
+            this.tamanho--;
+            return true;
+        }
+
+        for(int i = posicao; i < this.tamanho -1; i++){
+            this.lista[i] = this.lista[i+1];
+        }
+        
+        this.tamanho--;
+        
+        return true;
     }
     
 }

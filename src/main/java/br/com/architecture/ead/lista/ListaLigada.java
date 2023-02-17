@@ -60,6 +60,7 @@ public class ListaLigada<T> implements Lista<T> {
 		return this.tamanho;
 	}
 
+	@Override
 	public No<T> obtemElemento(T t) {
 		No<T> cursor = this.primeiro;
 
@@ -73,6 +74,7 @@ public class ListaLigada<T> implements Lista<T> {
 		return null;
 	}
 
+	@Override
 	public No<T> obtemElementoNaPosicao(int posicao) {
 
 		if (this.tamanho <= posicao || posicao < 0)
@@ -90,6 +92,7 @@ public class ListaLigada<T> implements Lista<T> {
 		return null;
 	}
 
+	@Override
 	public boolean adicionaNaPosicao(T t, int posicao) {
 		if ((this.tamanho <= posicao && posicao != 0) || posicao < 0)
 			throw new IllegalAccessError("Posição Inexistente");
@@ -143,7 +146,6 @@ public class ListaLigada<T> implements Lista<T> {
 			this.tamanho--;
 
 			return true;
-
 		}
 
 		No<T> cursor = this.primeiro;
