@@ -126,6 +126,9 @@ class ListaLigadaTest {
 		assertEquals(lista.obtemElemento(20), noVinte);
 	}
 
+	/**
+	 * 
+	 */
 	@Test
 	public void devolveExcecaoQuandoAPosicaoNaoExisteNaLista() {
 		ListaLigada<Integer> lista = new ListaLigada<>();

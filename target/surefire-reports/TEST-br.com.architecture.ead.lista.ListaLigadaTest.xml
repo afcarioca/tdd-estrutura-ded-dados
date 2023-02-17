@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.architecture.ead.lista.ListaLigadaTest" time="0.153" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ANDRE\Desktop\java\estrutura-de-dados\target\test-classes;C:\Users\ANDRE\Desktop\java\estrutura-de-dados\target\classes;C:\Users\ANDRE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ANDRE\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\ANDRE\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\ANDRE\AppData\Local\Temp\surefire2726979836949925946\surefirebooter17948681390383635830.jar C:\Users\ANDRE\AppData\Local\Temp\surefire2726979836949925946 2023-02-17T00-50-30_330-jvmRun1 surefire13885799850841237279tmp surefire_011329140997995516058tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ANDRE\Desktop\java\estrutura-de-dados\target\test-classes;C:\Users\ANDRE\Desktop\java\estrutura-de-dados\target\classes;C:\Users\ANDRE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ANDRE\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\ANDRE\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ANDRE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ANDRE"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ANDRE\Desktop\java\estrutura-de-dados"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANDRE\AppData\Local\Temp\surefire2726979836949925946\surefirebooter17948681390383635830.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="ANDRE"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ANDRE\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANDRE\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\ANDRE\Desktop\java\estrutura-de-dados"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ANDRE\Documents\cmder\vendor\bin;C:\Users\ANDRE\Documents\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\ANDRE\Documents\cmder\vendor\conemu-maximus5;C:\Users\ANDRE\Documents\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY\;C:\xampp\php\ext;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\ANDRE\php;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\HashiCorp\Vagrant\bin;%MAVEN_HOME%\bin;C:\Program Files\Apache Maven\apache-maven-3.9.0\bin;C:\Users\ANDRE\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ANDRE\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ANDRE\AppData\Local\Microsoft\WindowsApps;C:\Users\ANDRE\.dotnet\tools;C:\Users\ANDRE\AppData\Roaming\Composer\vendor\bin;C:\Users\ANDRE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ANDRE\AppData\Roaming\npm;C:\Users\ANDRE\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;C:\Users\ANDRE\Documents\cmder\vendor\git-for-windows\cmd;C:\Users\ANDRE\Documents\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\ANDRE\Documents\cmder\vendor\git-for-windows\usr\bin;C:\Users\ANDRE\Documents\cmder;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="devolveUmaListaQueAdicionaOsSeusElementosNoInicioENoFim" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.064"/>
+  <testcase name="verificaNumaListaComUmElementoSeOPrimeiroEIgualAoUltimoAdicionandoNoFim" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.002"/>
+  <testcase name="devolveUmaListaComOElementoDeUmPosicaoEspecificaRemovido" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.004"/>
+  <testcase name="devolveUmaListaComOElementoDaPrimeiraPosicaoRemovido" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.01"/>
+  <testcase name="verificaNumaListaComUmElementoSeOPrimeiroEIgualAoUltimoAdicionandoNoIncio" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0"/>
+  <testcase name="devolveONoDeUmElemenentoDaListaIndicandoASuaPosicao" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0"/>
+  <testcase name="devolveAListaQuandoAdicionadoNaPrimeiraPosicao" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.003"/>
+  <testcase name="devolveUmaListaComOElementoDaUtimaPosicaoRemovido" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0"/>
+  <testcase name="devolveUmaExcecaoQuandoAPosicaoNaoExisteNaListaNoMomentoDaInSercaoDeUmValorNumaPosicaoInexistenteDaLista" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.005"/>
+  <testcase name="devolveOUltimoElementoDaListaComValorDe10AdicionandoOsElementosNoInicio" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveUmaListaQueAdicionaOsSeusElementosNoFim" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0"/>
+  <testcase name="devolveUmaListaTendoComoCasoAInsercaoDeUmElementoNumaPosicaoEspecifica" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveUmaListaVaziaComOElementoDaPrimeiraPosicaoRemovido" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveListaAtualizadoComAInsercaoDeUmElementoNaPrimeiraPosicao" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveUmaListaQueAdicionaOsSeusElementosNoInicio" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveOPrimeiroValorDeUmaListaComUmElemento" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.002"/>
+  <testcase name="devolveONoDeUmElemenentoDaLista" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveOUltimoValorDeUmaListaComUmElemento" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveExcecaoQuandoAPosicaoNaoExisteNaLista" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.002"/>
+  <testcase name="devolveOUltimoElementoDaListaComValorDeVinteAdicionandoOsElementosNoFim" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0"/>
+  <testcase name="devolveOTamanhoDaLista" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.001"/>
+  <testcase name="devolveUmaExcecaoCasoTenteRemoverUmElementoNumaPosicaoInexistente" classname="br.com.architecture.ead.lista.ListaLigadaTest" time="0.002"/>
+</testsuite>
